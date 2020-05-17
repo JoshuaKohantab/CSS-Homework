@@ -1,0 +1,92 @@
+
+
+
+
+.card {
+margin:auto;/*centers content in the middle of the browserr*/
+padding:0.88em;   
+
+width:21.875em;
+border: 0.32125em solid #ddd;
+border-radius:0.625em;
+font-family:'Roboto', sans-serif;
+
+ background-image: url('https://images.freeimages.com/images/large-previews/773/koldalen-4-1384902.jpg');
+
+color:#362d26;
+
+}
+.card:hover{
+margin:auto;
+padding:0.9375em; 
+
+width:29.167em;
+border: 0.3125em solid #ddd;
+border-radius:0.625em;
+ transform: perspective(62.5em) rotateY(45deg);/*rotates card at 45 deg angle when hovered*/
+box-shadow: 0.1875em 0.3125em 0.1875em 0.3125em;
+
+}
+
+
+h3{
+	margin: 0 0 0.9375em; /*centers the content in the header */
+	padding: 0.3125em 0.625em; /*creates space in the inner space of the element*/
+border: 0.3125em solid #ddd;/
+border-radius:0.625em;
+box-shadow: 0.3125em  0.3125em; 
+ background:linear-gradient(0.25turn, rgba(233, 236, 236, 0.73), #e1f0f8, #3ce5f6);
+
+
+}
+.image-div{
+	margin: 0.9375em auto; 
+	width:20.75em;  
+	height:20.75em;
+	border: 0.7em solid gold; 
+	border-radius:0.625em;
+	
+	overflow:hidden;/* prevents the child element from flowing over the parents contents*/
+
+
+}
+
+.image-div img {
+
+width:100%;
+height:auto;
+
+
+
+
+ 
+}
+
+
+
+.info {
+	margin:auto; /* centers the information section of the card centered in its container*/
+	padding: 0.625em;
+	border: 0.3125em solid #ddd;
+	border-radius:0.625em;
+  
+    font-size:0.8em;
+    background:linear-gradient(0.25turn, rgba(233, 236, 236, 0.73), #e1f0f8, #3ce5f6);
+}
+
+#description {
+font-style:italic;
+
+}
+
+#list-items {
+list-style: none;
+padding-left:0;
+}
+#list-items span {
+font-weight:bold;
+
+}
+.indent {
+	padding-left:1.875em;
+}
